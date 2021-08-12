@@ -1,0 +1,94 @@
+/*if the viewport is equal to 340px or less then that*/
+
+@media screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .subscribe-us-area .subscribe .subscribe-title,
+    .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .subscribe-us-area .subscribe,
+    .subscribe-us-area{
+        padding: 4%;
+        margin: 0%;
+    }
+
+    .site-banner .site-title h1{
+        font-size:  41px;
+
+    }
+
+    .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+   .services-area .services{
+        width: 13rem;
+    }
+    
+}
+
+/*if the viewport is equal to 792px or less then that*/
+
+@media screen and (max-width: 792px){
+    
+    .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .years-area{
+        padding-left: 10%;
+        
+    }
+
+    .about-area .about-title h2 > span{
+        text-align: center;
+    }
+
+    .about-area .about-title .para{
+        text-align: center;
+        padding-left: 30%;
+    }
+    
+    
+
+    .button-group button{
+        font: normal 600 18px/40px var(--roboto);
+    }
+
+    .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+
+}
+
+/*if the viewport is equal to 1910px or less then that*/
+
+@media screen and (max-width: 1910px){
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+    .brand-area,
+    .services-title,
+    .about-area{
+        padding: 3% 4%;
+    }
+
+    .call-area{
+        padding-left: 3%;
+    }
+
+    .subscribe-us-area .subscribe{
+        background: url(../img/subscribe-bg.png) no-repeat 0px 0px;
+    }
+}
